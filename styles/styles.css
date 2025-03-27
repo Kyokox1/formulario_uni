@@ -1,0 +1,72 @@
+body {
+	padding: 5px 0;
+}
+
+.container {
+	width: 50%;
+	padding: 30px;
+	border-radius: 8px;
+}
+
+/* formulario */
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form {
+	background-color: plum;
+}
+
+.form__container {
+	display: flex;
+	flex-direction: column;
+}
+.form__button {
+	margin-top: 12px;
+	width: 100%;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+
+/* Verificacion */
+.verify {
+	margin: auto;
+	margin-top: 10px;
+	background-color: orange;
+}
+
+.verify__container {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	width: 100%;
+}
+
+.verify__container div {
+	display: flex;
+	padding: 8px;
+	padding-right: 20px;
+	justify-content: space-between;
+	border: 1px solid blue;
+	border-radius: 10px;
+}
+
+.verify__container div label {
+	flex-grow: 1;
+	pointer-events: none;
+}
+
+.verify__container div input {
+	pointer-events: none;
+}
+
+.valid {
+	background-color: rgb(10, 210, 10);
+}
+
+.invalid {
+	background-color: rgb(236, 48, 48);
+}
